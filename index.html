@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <style>
-        /* Centrar todo el contenido */
         body {
             display: flex;
             justify-content: center;
             align-items: center;
             margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+            
+
         }
 
         main {
@@ -20,6 +22,7 @@
             width: 100%;
             padding: 20px;
             border: 1px solid blue;
+            background-color: rgb(255, 248, 238);
         }
 
         header {
@@ -62,11 +65,19 @@
             margin-left: 55px;
             /* border: 1px solid salmon; */
         }
-        
+
         .skills {
-            display:inline-table;
-            justify-content: space-around;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
             margin-top: 20px;
+        }
+        header img{
+            text-align: left;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
         }
 
     </style>
@@ -75,20 +86,19 @@
 <body>
     <main>
         <header>
+            <img src="/images/fruit-1222438_640.png" alt="">
             <h1>Ruben Moya</h1>
             <p>Tecnico Informatico y Desarrollador Web</p>
         </header>
         <h4>Resumen</h4>
         <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio veniam culpa placeat praesentium voluptatem
-            necessitatibus nobis modi eligendi! Voluptatibus laudantium reiciendis sapiente perferendis dicta? Molestias
-            facilis ab porro optio iste.
+            Técnico informático con experiencia en desarrollo web y soporte técnico. Especializado en administración de sistemas y ciberseguridad, con habilidad para trabajar en equipo y adaptarme a nuevos retos. Comprometido con la resolución de problemas y el cumplimiento de plazos bajo presión.
         </p>
         <h4>Formacion</h4>
         <ul>
             <li>FP Sistemas Microinformaticos y Redes <br>
                 IES Juan Bosco (Alcazar de San Juan) <br>
-                2021 - 2024
+                2022 - 2024
             </li>
             <li>Certificacion CCST Cibersecurity <br>
                 12-2024
@@ -129,9 +139,13 @@
             <div>CSS</div>
             <div>Java</div>
             <div>Trabajo en equipo</div>
+            <div>Comunicacion</div>
+            <div>Adaptabilidad</div>
+        </div>
+        <div class="skills">
             <div>Responsabilidad</div>
             <div>Autonomia</div>
-            <div>Resolucion de problemas</div>
+            <div>Resolucion de Problemas</div>
             <div>Trabajo bajo presion</div>
         </div>
 
